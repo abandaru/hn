@@ -4,7 +4,7 @@ const topStoriesAPI = `${baseAPIUrl}/topstories.json`;
 const newStoriesAPI = `${baseAPIUrl}/newstories.json`;
 
 // the length of items list
-const itemsLength = 30;
+const itemsLength = 50;
 const startTime = Date.now();
 
 let isLoading = true;
